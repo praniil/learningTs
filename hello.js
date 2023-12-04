@@ -1,5 +1,5 @@
 // interview question easy
-var string1 = "hello";
+var string1 = "HELLO???";
 var stringLen = string1.length;
 console.log(stringLen);
 for (var i = 0; i < string1.length; i++) {
@@ -9,6 +9,6 @@ for (var i = 0; i < string1.length; i++) {
         console.log(ustring);
     }
     else {
-        console.log(string1[i]);
+        console.log(string1[i].toLowerCase());
     }
 }
